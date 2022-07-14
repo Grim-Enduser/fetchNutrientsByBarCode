@@ -2,4 +2,4 @@ import {fetchNutrientsByBarCode} from "./functions/fetchNutrientsByBarCode";
 
 console.log('script is running!')
 
-fetchNutrientsByBarCode(`01121069703`).then();
+fetchNutrientsByBarCode('0 11210 69700 3').then();
