@@ -534,7 +534,7 @@ function hmrAcceptRun(bundle, id) {
 },{}],"gLLPy":[function(require,module,exports) {
 var _fetchNutrientsByBarCode = require("./functions/fetchNutrientsByBarCode");
 console.log("script is running!");
-(0, _fetchNutrientsByBarCode.fetchNutrientsByBarCode)("0 11210 69700 3").then();
+(0, _fetchNutrientsByBarCode.fetchNutrientsByBarCode)("0 11210 69700 3").then(); //
 
 },{"./functions/fetchNutrientsByBarCode":"jHAKo"}],"jHAKo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
